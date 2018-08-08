@@ -7,10 +7,10 @@ import org.junit.jupiter.api.Test;
 class PalindromeNumberFinderTest {
 
 	@Test
-		void testGetMaxPalindromeInResultOfMultiplication() {
-			PalindromeNumberFinder palindromeNumberFinder = new PalindromeNumberFinder();
-	
-			assertEquals(199797991, palindromeNumberFinder.getMaxPalindromeInResultOfMultiplication(199999, 999));
-		}
+			void testIsPalindrome() {
+				PalindromeNumberFinder palindromeNumberFinder = new PalindromeNumberFinder();
+		
+				assertEquals(99000099, palindromeNumberFinder.getMaxPalindrome());
+			}
 
 }
